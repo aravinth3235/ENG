@@ -1,0 +1,124 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.popuplist {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.popuplist .content {
+  /* background-color: brown; */
+
+  width: 400px;
+  background-color: #003f829b;
+  color: #fff;
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-height: 400px;
+  overflow-y: auto;
+}
+.popuplist .content input {
+  text-align: left;
+  padding-left: 5px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.popuplist .content button {
+  color: #fff;
+  background-color: #003f82;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+.spanaddsq {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container .addsq {
+  padding: 8px 16px;
+
+  margin-right: 0px;
+  margin-bottom: 10px;
+  width: max-content;
+  color: #fff;
+  background-color: #003f82;
+  border: none;
+  border-radius: 3px;
+}
+.container .sec {
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 3px;
+  max-width: fit-content;
+  padding: 25px 10px;
+  margin: 10px auto 10px auto;
+  color: #003f82;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  overflow: auto;
+}
+.container .sec input[type="checkbox"] {
+  margin-right: 15px;
+  height: 15px;
+  width: 15px;
+}
+.container .sec .btn3 {
+  color: #fff;
+  background-color: #003f82;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.container .obtn {
+  padding-top: 6px;
+  padding-bottom: 4px;
+  text-align: center;
+  width: 30px;
+  border: 1px solid #919192;
+  margin-right: 10px;
+}
+.inscludechar {
+  margin-left: 15px;
+}
+.container label {
+  margin-right: 8px;
+  margin-left: 3px;
+}
+
+@media only screen and (max-width: 960px) {
+  .container .sec {
+    max-width: 80%;
+  }
+  .container .sec label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .sec-1,
+  .sec-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .sec .btn3 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}

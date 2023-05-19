@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  caret-color: #003f82;
+  color: #003f82;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #064e9a;
+}
+input:focus {
+  border: 3px solid #6ab2ff;
+}
+.Header {
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background: rgb(0, 63, 130);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 63, 130, 1) 28%,
+    rgba(104, 163, 238, 1) 100%
+  );
+  color: #fff;
+}
+
+.navs {
+  display: flex;
+  padding: 10px;
+  text-transform: uppercase;
+  gap: 10px;
+  background: rgb(206, 224, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(206, 224, 247, 1) -6%,
+    rgba(0, 63, 130, 1) 65%
+  );
+}
+.navs h3 {
+  color: #003f8291;
+}
+.navs p {
+  padding-top: 3px;
+  margin-left: auto;
+  color: #fff;
+}
+
+.navs p span {
+  color: rgb(115, 115, 115);
+}
+
+.homes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70%;
+  margin-top: 50px;
+  align-items: center;
+  row-gap: 15px;
+}
+.homes button {
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #003f82;
+  border: none;
+  border-radius: 3px;
+}
+
+.hmbtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.hmbtn button {
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #003f82;
+  border: none;
+  border-radius: 3px;
+}

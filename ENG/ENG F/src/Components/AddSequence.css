@@ -1,0 +1,78 @@
+.addcontainer .tb {
+  min-width: 800px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.addcontainer .tb button {
+  border: none;
+}
+.addcontainer {
+  overflow-x: auto;
+}
+.addcontainer label,
+.addcontainer input {
+  margin-right: 10px;
+}
+.addcontainer .thead-light {
+  background-color: #004b9c;
+  color: #fff;
+}
+
+.addcontainer .section {
+  border: 1px solid rgb(167, 167, 167);
+  max-width: fit-content;
+  padding: 25px 10px;
+  margin: 10px auto 10px auto;
+  color: #003f82;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+}
+.addcontainer .sec label {
+  margin-right: 8px;
+  margin-left: 3px;
+}
+.addcontainer .sec-12 button {
+  color: #fff;
+  background-color: #003f82;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.addcontainer .sec-12 input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+.trs input[type="date"] {
+  margin: 0;
+  padding: 0;
+  width: min-content;
+}
+.trs input[type="text"] {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+@media only screen and (max-width: 1000px) {
+  .addcontainer .section {
+    max-width: 80%;
+  }
+  .addcontainer .section .sec-11,
+  .addcontainer .section .sec-12 {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items: center;
+  }
+  .addcontainer label,
+  .addcontainer input {
+    margin-bottom: 5px;
+  }
+  .addcontainer .sec-12 button {
+    margin-left: 0px;
+  }
+}
